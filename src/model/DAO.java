@@ -8,7 +8,7 @@ public class DAO {
 	private Connection con;
 	private String driver = "com.mysql.cj.jdbc.Driver";
 	private String url = "jdbc:mysql://192.168.20.103:3306/assistencia";
-	private String user = "dba";
+	private String user = "root";
 	private String password = "123@Senac";
 	
 	public Connection conectar() {
