@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 
 public class DAO {
 	private Connection con;
-	private String driver = "com.mysql.cj.jdbc.Driver";
+	private String driver = "com.mariadb.cj.jdbc.Driver";
 	private String url = "jdbc:mysql://192.168.20.103:3306/assistencia";
 	private String user = "root";
 	private String password = "123@Senac";
