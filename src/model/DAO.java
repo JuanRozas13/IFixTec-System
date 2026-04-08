@@ -8,7 +8,7 @@ public class DAO {
 	private Connection con;
 	private String driver = "com.mariadb.cj.jdbc.Driver";
 	private String url = "jdbc:mysql://192.168.20.103:3306/assistencia";
-	private String user = "root";
+	private String user = "dba";
 	private String password = "123@Senac";
 	
 	public Connection conectar() {
